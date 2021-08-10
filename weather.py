@@ -47,7 +47,7 @@ def get_weather(city_name, TOKEN_WEATHER):
               f"Ощущается как: {feels_like}C°\n"        
               f"Влажность: {humidity}%\nДавление: {pressure} мм.рт.ст\nВетер: {wind} м/с\n"
               f"УФ-индекс: {cur_uv}\n"
-              f"Восход солнца: {sunrise_timestamp} \nЗакат солнца: {sunset_timestamp}\nПродолжительность дня: {lenght_of_the_day}\n"
+              f"Восход солнца: {sunrise_timestamp} \nЗакат солнца: {sunset_timestamp}\n"
               f"Всего хорошего!")
         #print(result)
 
